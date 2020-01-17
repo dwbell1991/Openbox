@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openbox_menu xmlns="http://openbox.org/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://openbox.org/
+	file:///usr/share/openbox/menu.xsd">
+
+	<menu id="root-menu" label="Openbox 3">
+		<item label="Terminal">
+			<action name="Execute"><execute>xterm</execute></action>
+		</item>
+		<item label="Geany">
+			<action name="Execute"><execute>geany</execute></action>
+		</item>
+		<item label="LibreOffice">
+			<action name="Execute"><execute>libreoffice</execute></action>
+		</item>
+		<item label="Netbeans">
+			<action name="Execute"><execute>netbeans</execute></action>
+		</item>
+		<item label="VirtualBox">
+			<action name="Execute"><execute>virtualbox</execute></action>
+		</item>
+		<item label="Chromium">
+			<action name="Execute"><execute>chromium</execute></action>
+		</item>
+		<item label="Paint">
+			<action name="Execute"><execute>pinta</execute></action>
+		</item>
+		<item label="Memory Manager">
+			<action name="Execute"><execute>baobab</execute></action>
+		</item>
+		<item label="Calculator">
+			<action name="Execute"><execute>speedcrunch</execute></action>
+		</item>
+		<menu id="/Debian" />
+		<separator />
+		<menu id="client-list-menu" />
+		<separator />
+		<item label="ObConf">
+			<action name="Execute"><execute>obconf</execute></action>
+		</item>
+		<item label="Reconfigure">
+			<action name="Reconfigure" />
+		</item>
+		<item label="Restart">
+			<action name="Restart" />
+		</item>
+		<separator />
+		<item label="Exit">
+			<action name="Exit" />
+		</item>
+	</menu>
+
+</openbox_menu>
